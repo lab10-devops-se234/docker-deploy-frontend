@@ -30,7 +30,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          content: .
+          context: .
           push: true
           tags: {ptpofficialxd}/234-deploylab-frontend:latest
       -
