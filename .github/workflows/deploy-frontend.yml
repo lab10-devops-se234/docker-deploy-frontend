@@ -1,4 +1,4 @@
-name: Deploy frontend applicationn
+name: Deploy frontend application
 'on' :
   push:
     branches:
