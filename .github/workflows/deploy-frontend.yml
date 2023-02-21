@@ -2,7 +2,7 @@ name: Deploy frontend application
 'on' :
   push:
     branches:
-      - main
+      - 9999
 jobs:
   docker:
     runs-on: ubuntu-latest
